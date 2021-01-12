@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ResponseCheck</title>
+    <style>
+      #screen {
+        width: 300px;
+        height: 200px;
+        text-align: center;
+        user-select: none;
+      }
+      #screen.waiting {
+        background-color: #30475e;
+      }
+      #screen.ready {
+        background-color: #f05454;
+        color: white;
+      }
+      #screen.now {
+        background-color: #00af91;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="./dist/app.js"></script>
+  </body>
+</html>
